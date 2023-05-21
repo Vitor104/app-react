@@ -1,3 +1,8 @@
 import React from 'react';
 
-react 
+function Exemplo(props) {
+   
+};
+
+
+export default Exemplo;
