@@ -6,6 +6,7 @@ import './App.css';
 const MyName = 'Vitor';
 const MyNewName = MyName.toUpperCase();
 function App() {
+  
 
   return (
     <div>
