@@ -7,6 +7,7 @@ import Exemplo from './exemplo.jsx'
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <App />
-    <Exemplo nome='joão' />
+    <Exemplo nome='joão' idade="19" />
+    <Exemplo nome='vitor' idade="30" />
   </React.StrictMode>,
 )
