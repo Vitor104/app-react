@@ -2,12 +2,11 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
-import Exemplo from './exemplo.jsx'
+import Grocery from './exemplo.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <App />
-    <Exemplo nome='joão' idade="19" />
-    <Exemplo nome='vitor' idade="30" />
+    <Grocery item1="eggs" item2="bread" item3="beaf" />
   </React.StrictMode>,
 )
