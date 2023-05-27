@@ -9,8 +9,8 @@ function Grocery(props) {
 
   return (
     <div>
-      <input value={userName}type="text" placeholder={"nome"}></input>
-      <button type="submit">clicar</button>
+      <h1>Hello world</h1>
+      
    </div>
   )
 };
